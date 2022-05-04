@@ -11,6 +11,7 @@ We need to create two tables one for Covid Death's and Vaccinations information.
 
 [CovidDeaths.csv](https://github.com/redhym/Portfolio-Projects/files/8617707/CovidDeaths.csv)
 
+Covid Vaccinations.csv: 
 
 **Step 2:**
 
