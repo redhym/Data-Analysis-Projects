@@ -12,7 +12,7 @@ LIMIT 10;
 
 
 
--- Catalogue the % of population contracted covid
+-- What percentage of population contracted covid
 
 SELECT location, date, population, total_cases, ROUND((total_cases/population)*100, 2) as CasesPercentage
 FROM PortfolioProject.coviddeaths
