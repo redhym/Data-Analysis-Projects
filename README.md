@@ -12,5 +12,14 @@ We need to create two tables one for Covid Death's and Vaccinations information.
 [CovidDeaths.csv](https://github.com/redhym/Portfolio-Projects/files/8617707/CovidDeaths.csv)
 
 
+**Step 2:**
+
+Creating Database & Importing Tables to SQL - Now head over to SQL server (I’m using SQL workbench for my project) and create a new Database. Import both CovidDeath and CovidVaccinations files.
+
+**Step 3:**
+
+Exploring the dataset - see Covid Porfolio Project.SQL file for more details.
+
+
 
 
