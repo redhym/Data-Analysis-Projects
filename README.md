@@ -9,6 +9,8 @@ Download COVID Data CSV file
 
 We need to create two tables one for Covid Death's and Vaccinations information. 
 
-CovidDeath: [CovidDeaths.csv](https://github.com/redhym/Portfolio-Projects/files/8617707/CovidDeaths.csv)
+[CovidDeaths.csv](https://github.com/redhym/Portfolio-Projects/files/8617707/CovidDeaths.csv)
+
+
 
 
