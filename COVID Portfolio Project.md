@@ -38,7 +38,7 @@ LIMIT 10;
 
 
 -- Which countries have the highest Death Count per population 
--- We need to convert the total_deaths datatype from text to INT, so i used to CAST do that
+-- We need to convert the total_deaths datatype from text to INT, so i've used CAST.
 
 SELECT location, MAX(CAST(total_deaths as SIGNED)) as TotalDeathCount
 FROM PortfolioProject.coviddeaths
