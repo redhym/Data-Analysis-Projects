@@ -15,7 +15,7 @@ Creating Database & Importing Tables to SQL - Now head over to SQL server (I’m
 
 **Step 3:**
 
-Exploring the dataset - Check out COVID Portfolio Project.sql file for more details.
+Exploring the dataset - Check out COVID Portfolio Project.md file for more details.
 
 
 
