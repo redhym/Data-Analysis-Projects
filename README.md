@@ -7,7 +7,7 @@ Download COVID Data CSV file
 
 **Step 1:**
 
-Extract required information from the dataset. I have worked on Covid Death's and Covid Vaccinations.  
+First step is to pull the data from the website and loading into SQL server. Extract required information from the dataset. I have worked on Covid Death's and Covid Vaccinations.  
 
 **Step 2:**
 
