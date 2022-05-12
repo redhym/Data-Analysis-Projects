@@ -18,7 +18,11 @@ Creating Database & Importing Tables to SQL - Now head over to SQL server (I’m
 Exploring the dataset - Check out COVID Portfolio Project.md file for more details.
 
 **Step 4:**
-Visualisation 
+
+Finally - I have used set of queries (can be found under - Tableau Project.sql file) to create this dashboard in Tableau.
+
+![Dashboard 1](https://user-images.githubusercontent.com/85157023/168028862-23084d59-8892-4710-98fb-94161f0e8a7b.png)
+
 
 https://public.tableau.com/app/profile/hyma8492/viz/COVIDDashboard_16523443249020/Dashboard1?publish=yes
 
