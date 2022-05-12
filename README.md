@@ -19,7 +19,7 @@ Exploring the dataset - Check out COVID Portfolio Project.md file for more detai
 
 **Step 4:**
 
-Finally - I have used set of queries (can be found under - Tableau Project.sql file) to create this dashboard in Tableau.
+Finally - I have used set of queries (please check file- Tableau Project.sql) to create this dashboard in Tableau.
 
 ![Dashboard 1](https://user-images.githubusercontent.com/85157023/168028862-23084d59-8892-4710-98fb-94161f0e8a7b.png)
 
