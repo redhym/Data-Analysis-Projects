@@ -1,4 +1,4 @@
--- Queries used for Tableau Project
+-- Queries used for Tableau Dashboard
 
 
 -- 1. Global Numbers
