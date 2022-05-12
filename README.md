@@ -17,6 +17,9 @@ Creating Database & Importing Tables to SQL - Now head over to SQL server (I’m
 
 Exploring the dataset - Check out COVID Portfolio Project.md file for more details.
 
+**Step 4:**
+Visualisation 
 
+https://public.tableau.com/app/profile/hyma8492/viz/COVIDDashboard_16523443249020/Dashboard1?publish=yes
 
 
