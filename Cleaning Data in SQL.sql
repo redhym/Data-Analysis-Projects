@@ -1,6 +1,6 @@
 Data Cleaning in SQL - I used  Nashville Housing Data 
 
-1. Standardise Data Format**
+1. Standardise Data Format
 
 -- First execute the below query to see if the data format is what you wanted
 
