@@ -1,8 +1,8 @@
--- Data Cleaning in SQL
+Data Cleaning in SQL
 
--- I am using Nashville Housing Data to clean the data
+I am using Nashville Housing Data to clean the data
 
--- Standardise Data Format
+1. Standardise Data Format**
 
 -- First execute the below query to see if the data format is what you wanted
 
@@ -24,9 +24,8 @@ SET SaleDate = STR_TO_DATE(SaleDate, '%d-%m-%Y');
 SELECT SaleDate
 FROM PortfolioProjects.nashvillehousingdata;
 
--- Populating Missing Property Address based on ParcelID - There seem to be connection
--- between Property Address and ParcelID. So we will self join the table to populate missing 
--- data in the property address column.
+2. Populating Missing Property Address based on ParcelID - There seem to be connection between Property Address and ParcelID. So we will self join the table to populate missing 
+data in the property address column.
 
 -- Same as before run the below query to see if propertyaddress is populated for null values
 
@@ -51,7 +50,7 @@ WHERE n1.PropertyAddress = '' or n1.PropertyAddress IS NULL;
 
 SET SQL_SAFE_UPDATES = 1;
 
--- Split Address into different columns
+3. Split Address into different columns
 
 SELECT 
 SUBSTRING_INDEX(PropertyAddress, ',', 1) as Address,
@@ -77,7 +76,7 @@ SELECT *
 FROM PortfolioProjects.nashvillehousingdata;
 
 
--- Split Owner Address into different columns
+4. Split Owner Address into different columns
 
 SELECT OwnerAddress,
 SUBSTRING_INDEX((SUBSTRING_INDEX(OwnerAddress, ',', 1)), ',', -1) As Address1,
@@ -105,7 +104,7 @@ UPDATE nashvillehousingdata
 SET OwnerAddress_State = SUBSTRING_INDEX((SUBSTRING_INDEX(OwnerAddress, ',', 3)), ',', -1);
 
 
--- Cleaning SoldASVacant column by chaning Y to Yes and N to NO, so it's consistent.
+5. Cleaning SoldASVacant column by chaning Y to Yes and N to NO, so it's consistent.
 
 SELECT SoldAsVacant,
 CASE WHEN SoldAsVacant = 'Y' then 'Yes'
@@ -120,7 +119,7 @@ SET SoldAsVacant = CASE WHEN SoldAsVacant = 'Y' then 'Yes'
      ELSE SoldAsVacant
      END;
 
--- Delete Unused Columns
+6. Delete Unused Columns
 
 ALTER TABLE PortfolioProjects.nashvillehousingdata
 DROP OwnerAddress, 
