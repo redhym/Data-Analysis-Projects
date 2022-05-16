@@ -1,6 +1,4 @@
-Data Cleaning in SQL
-
-I am using Nashville Housing Data to clean the data
+Data Cleaning in SQL - I used  Nashville Housing Data 
 
 1. Standardise Data Format**
 
