@@ -1,4 +1,4 @@
--- Download historical data from Yahoo Finance of your selected stocks - I have used Apple, Google, Microsfot & Tesla stocks 5 Years data.
+-- Download historical data from Yahoo Finance of your selected stocks - I picked Apple, Google, Microsoft & Tesla stocks 5 Years data for this project.
 -- Create a database and import the CSV files
 
 -- Next, I have added symbol to each table to identify the stock
