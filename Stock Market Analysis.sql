@@ -43,7 +43,8 @@ UPDATE `Stock Analysis`.goog SET Date = str_to_date(Date, '%Y-%m-%d');
 UPDATE `Stock Analysis`.msft SET Date = str_to_date(Date, '%Y-%m-%d');
 UPDATE `Stock Analysis`.tsla SET Date = str_to_date(Date, '%Y-%m-%d');
 
--- Let's calculate 10-day and 30- day moving averages for each stock. This is calculated based on the base stock price data. Moving averages are a common technical analysis tool for analyzing stock trends.
+-- Let's calculate 10-day and 30- day moving averages for each stock. This is calculated based on the base stock price data. 
+-- Moving averages are a common technical analysis tool for analyzing stock trends.
 
 -- Apple
 
