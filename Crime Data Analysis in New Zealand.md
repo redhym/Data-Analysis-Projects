@@ -1,3 +1,12 @@
+** This project we’re going to analyse crime victimisation in New Zealand. This dataset includes details of where and at what times of the day and week crime occurs.**
+
+The data can be download from the below link:
+
+https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics/policedatanz/victimisation-time-and-place
+
+
+
+
 /* Create database */
 CREATE DATABASE crime_NZ;
 GO
