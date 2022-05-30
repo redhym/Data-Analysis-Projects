@@ -1,4 +1,4 @@
-**This project we’re going to analyse crime victimisation in New Zealand. This dataset includes details of where and at what times of the day and week crime occurs.**
+** In this project we’re going to analyse crime victimisation in New Zealand. This dataset includes details of where and at what times of the day and week crime occurs.**
 
 >The data can be download from the below link:
 
