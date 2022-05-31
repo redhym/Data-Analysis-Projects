@@ -124,6 +124,17 @@ ORDER BY COUNT(*) DESC;
 ![Screen Shot 2022-05-31 at 2 43 29 PM](https://user-images.githubusercontent.com/85157023/171082475-c63f2512-6e8a-44c5-b272-020e456b0d23.png)
 
 
+/* Now let's see crimes committed per ethnicity*/
+
+SELECT TOP 10
+[Ethnicity], COUNT(*) group_count
+FROM [dbo].[Age and Sex AES_Full Data_data]
+GROUP BY [Ethnicity]
+ORDER BY COUNT(*) DESC;
+
+![Screen Shot 2022-05-31 at 2 47 38 PM](https://user-images.githubusercontent.com/85157023/171082900-a3ba0af1-69ed-4230-be9d-5204a147c0c0.png)
+
+
 
 
 
