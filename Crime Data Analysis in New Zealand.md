@@ -136,6 +136,8 @@ ORDER BY COUNT(*) DESC;
 
 
 
+![Dashboard 1](https://user-images.githubusercontent.com/85157023/171099991-ad2c5c72-0cbc-41ae-9152-f8f2deec9b30.png)
 
+>https://public.tableau.com/app/profile/hyma8492/viz/CrimeDataAnalysisNZ/Dashboard1?publish=yes
 
     
