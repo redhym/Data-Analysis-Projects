@@ -111,6 +111,16 @@ ORDER BY COUNT(*) DESC;
 ![Screen Shot 2022-05-31 at 2 38 51 PM](https://user-images.githubusercontent.com/85157023/171082028-dafd6f14-ddc5-4400-a25e-107669ced279.png)
 
 
+/* Now let's see crimes committed per age group*/
+
+SELECT TOP 10
+[Age_Group], [ANZSOC_Division], COUNT(*) crime_count
+FROM [dbo].[Age and Sex AES_Full Data_data]
+GROUP BY [Age_Group], [ANZSOC_Division]
+ORDER BY COUNT(*) DESC;
+
+![Screen Shot 2022-05-31 at 2 42 44 PM](https://user-images.githubusercontent.com/85157023/171082385-3a30e578-9812-475e-8212-ba2fe036c31a.png)
+
 
 
 
