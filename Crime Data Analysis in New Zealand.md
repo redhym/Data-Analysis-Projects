@@ -100,6 +100,20 @@ ORDER BY crime_count DESC;
 ![time crime](https://user-images.githubusercontent.com/85157023/170953044-892d1901-e71b-47f7-884c-059b69ed8c84.png)
 
 
+/* Let's see in which age group most of the crimes were committed*/
+
+SELECT TOP 10
+[Age_Group], COUNT(*) crime_count
+FROM [dbo].[Age and Sex AES_Full Data_data]
+GROUP BY [Age_Group]
+ORDER BY COUNT(*) DESC;
+
+![Screen Shot 2022-05-31 at 2 38 51 PM](https://user-images.githubusercontent.com/85157023/171082028-dafd6f14-ddc5-4400-a25e-107669ced279.png)
+
+
+
+
+
 
 
     
