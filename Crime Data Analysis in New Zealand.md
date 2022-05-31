@@ -119,8 +119,9 @@ FROM [dbo].[Age and Sex AES_Full Data_data]
 GROUP BY [Age_Group], [ANZSOC_Division]
 ORDER BY COUNT(*) DESC;
 
-![Screen Shot 2022-05-31 at 2 42 44 PM](https://user-images.githubusercontent.com/85157023/171082385-3a30e578-9812-475e-8212-ba2fe036c31a.png)
 
+
+![Screen Shot 2022-05-31 at 2 43 29 PM](https://user-images.githubusercontent.com/85157023/171082475-c63f2512-6e8a-44c5-b272-020e456b0d23.png)
 
 
 
