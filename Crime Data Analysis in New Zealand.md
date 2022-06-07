@@ -15,7 +15,7 @@ GO
 SELECT * FROM [crime_NZ]
 GO
 
-/* Let's check the top 10 districts with highest crime*/
+**1.Number of crimes that occurred in each district. The below result shows Auckland had most of the crimes. **
 
 SELECT TOP 10
        [Territorial_Authority],
@@ -27,7 +27,7 @@ ORDER BY crime_count DESC;
 ![Top 10 ](https://user-images.githubusercontent.com/85157023/170952806-83fa8316-ff4d-414c-bd8d-4c9c0cf476c5.png)
 
 
-/* Let's check if there is an increase in crime month to month*/
+**2.Let's check if there is an increase in crime month to month. You see there is an increase in crime in the month of March 2022 as compared to Feb 2022.**
 
 SELECT 
     [Year_Month],
@@ -41,7 +41,7 @@ GROUP BY  [Year_Month];
 
 
 
-/* Let's check in which month number of crimes were committed*/
+**3.Let's check in which month most number of crimes were committed**
 
 SELECT TOP 1 
 [Year_Month], COUNT(*) as crime_count
@@ -52,7 +52,7 @@ ORDER BY crime_count DESC;
 ![max month](https://user-images.githubusercontent.com/85157023/170952898-311a89ed-7e0d-4fbd-b8e8-de829df3097f.png)
 
 
-/* Let's check on which day hightest number of crimes were committed*/
+**4.Let’s check highest crimes committed on which day of the week. The result shows ‘Thursday’, never expected this, as I thought most crimes were committed on weekends.**
 
 SELECT TOP 1 
 [Occurrence_Day_Of_Week], COUNT(*) as crime_count
@@ -65,7 +65,7 @@ ORDER BY crime_count DESC;
 
 
 
-/* Number various crimes commited over time*/
+**5.Number various crimes committed over time. Clearly ‘ Theft and Related Offences” tops the chart.**
 
 SELECT YEAR([Year_Month]) as year, [ANZSOC_Division], COUNT(*) as various_crime_count
 FROM [dbo].[crime_NZ]
@@ -76,7 +76,7 @@ ORDER BY various_crime_count DESC;
 
 
 
-/* Let's check the high crime areas for certain crimes*/
+**6.Let's check the high crime areas for certain crimes**
 
 SELECT TOP 10
 [ANZSOC_Group], [ANZSOC_Division], [Area_Unit], COUNT(*) as various_crime_count
@@ -88,7 +88,7 @@ ORDER BY various_crime_count DESC;
 
 
 
-/* At what time most crimes were reported*/
+**7.At what time most crimes were reported- Wow around 3pm!**
 
 SELECT TOP 10
 [Occurrence_Hour_Of_Day], [ANZSOC_Division], COUNT(*) as crime_count
@@ -100,7 +100,7 @@ ORDER BY crime_count DESC;
 ![time crime](https://user-images.githubusercontent.com/85157023/170953044-892d1901-e71b-47f7-884c-059b69ed8c84.png)
 
 
-/* Let's see in which age group most of the crimes were committed*/
+**8. Let's see in which age group most of the crimes were committed- It’s shocking to see most crimes were committed in the 20-24 age group.**
 
 SELECT TOP 10
 [Age_Group], COUNT(*) crime_count
@@ -134,10 +134,13 @@ ORDER BY COUNT(*) DESC;
 
 ![Screen Shot 2022-05-31 at 2 47 38 PM](https://user-images.githubusercontent.com/85157023/171082900-a3ba0af1-69ed-4230-be9d-5204a147c0c0.png)
 
+**Finally I created a dashboard using Tableau. The Dashboard features ‘Crime by Month,’. ‘Type of crimes’ and crime occurrence by hour and day. **
 
 
 ![Dashboard 1](https://user-images.githubusercontent.com/85157023/171099991-ad2c5c72-0cbc-41ae-9152-f8f2deec9b30.png)
 
 >https://public.tableau.com/app/profile/hyma8492/viz/CrimeDataAnalysisNZ/Dashboard1?publish=yes
+
+**I think this data analysis will be useful to help the police to make decisions to reduce the crimes. Like what areas to focus on and time of the day.**
 
     
