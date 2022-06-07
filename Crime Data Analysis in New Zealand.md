@@ -141,6 +141,6 @@ ORDER BY COUNT(*) DESC;
 
 >https://public.tableau.com/app/profile/hyma8492/viz/CrimeDataAnalysisNZ/Dashboard1?publish=yes
 
-**I think this data analysis will be useful to help the police to make decisions to reduce the crimes. Like what areas to focus on and time of the day.**
+**I think this data analysis will be useful to the authorities to help make decisions to reduce the crimes. Like what areas to focus on and time of the day.**
 
     
