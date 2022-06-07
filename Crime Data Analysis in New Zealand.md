@@ -100,7 +100,7 @@ ORDER BY crime_count DESC;
 ![time crime](https://user-images.githubusercontent.com/85157023/170953044-892d1901-e71b-47f7-884c-059b69ed8c84.png)
 
 
-**8. Let's see in which age group most of the crimes were committed- It’s shocking to see most crimes were committed in the 20-24 age group.**
+**8. Let's see in which age group most of the crimes were committed- It’s shocking to see most crimes were committed by the 20-24 age group.**
 
 SELECT TOP 10
 [Age_Group], COUNT(*) crime_count
