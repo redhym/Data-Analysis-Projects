@@ -27,7 +27,7 @@ ORDER BY crime_count DESC;
 ![Top 10 ](https://user-images.githubusercontent.com/85157023/170952806-83fa8316-ff4d-414c-bd8d-4c9c0cf476c5.png)
 
 
-**2.Let's check if there is an increase in crime month to month. You see there is an increase in crime in the month of March 2022 as compared to Feb 2022.**
+**2.Let's check if there is an increase in crime month to month. There is an increase in the month of March 2022 as compared to Feb 2022.**
 
 SELECT 
     [Year_Month],
