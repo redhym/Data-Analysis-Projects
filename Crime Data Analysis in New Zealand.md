@@ -15,7 +15,7 @@ GO
 SELECT * FROM [crime_NZ]
 GO
 
-**1.Number of crimes that occurred in each district. The below result shows Auckland had most of the crimes. **
+**1.Number of crimes that occurred in each district. The below result shows Auckland had most of the crimes.**
 
 SELECT TOP 10
        [Territorial_Authority],
