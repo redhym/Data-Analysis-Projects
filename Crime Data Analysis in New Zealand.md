@@ -134,7 +134,7 @@ ORDER BY COUNT(*) DESC;
 
 ![Screen Shot 2022-05-31 at 2 47 38 PM](https://user-images.githubusercontent.com/85157023/171082900-a3ba0af1-69ed-4230-be9d-5204a147c0c0.png)
 
-**Finally I created a dashboard using Tableau. The Dashboard features ‘Crime by Month,’. ‘Type of crimes’ and crime occurrence by hour and day. **
+**Finally I've created a dashboard using Tableau. The Dashboard features ‘Crime by Month,’. ‘Type of crimes’ and crime occurrence by hour and day. **
 
 
 ![Dashboard 1](https://user-images.githubusercontent.com/85157023/171099991-ad2c5c72-0cbc-41ae-9152-f8f2deec9b30.png)
