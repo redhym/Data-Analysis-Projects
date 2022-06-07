@@ -65,7 +65,7 @@ ORDER BY crime_count DESC;
 
 
 
-**5.Number various crimes committed over time. Clearly ‘ Theft and Related Offences” tops the chart.**
+**5.Various crimes committed over time. Clearly ‘ Theft and Related Offences” tops the chart.**
 
 SELECT YEAR([Year_Month]) as year, [ANZSOC_Division], COUNT(*) as various_crime_count
 FROM [dbo].[crime_NZ]
