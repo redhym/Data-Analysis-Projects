@@ -32,4 +32,7 @@ Objective:
 - Choose graphs for visualisation
 - Publish in Power BI
 
+<img width="459" alt="Screen Shot 2022-06-26 at 6 38 40 PM" src="https://user-images.githubusercontent.com/85157023/175802844-1e906e25-4d82-4304-ab17-df8b992a4092.png">
+
+https://app.powerbi.com/links/JYQa1rFLZJ?ctid=ac78ef0d-a142-41a9-b287-b765416f6fe3&pbi_source=linkShare
 
