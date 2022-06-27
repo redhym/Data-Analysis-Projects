@@ -18,4 +18,5 @@ Group: Consumers price index – CPI
 OBJECTIVE:
 
 - Extract and import data in notebook
-- Explore 
+- Clean Data
+- Analyse data using ploty and seaborn
