@@ -17,4 +17,4 @@ Findings:
 - Aged 15-24 Years are most impacted by 13.1%
 - Unemployment rate for women was almost 1% higher than men in 2020.
 - Unemployment rate increased across all races. But, Pacific Peoples & Maori were hit harder than Asians and Europeans.
--
+
