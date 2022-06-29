@@ -48,6 +48,7 @@ Step 3. Now our data is ready to analyse. Let’s answer each business questions
 
 
 
+![Screen Shot 2022-06-29 at 6 55 45 PM](https://user-images.githubusercontent.com/85157023/176371581-ef3b7160-8f46-4caf-9db2-5507efb4901a.png)
 
 
 
