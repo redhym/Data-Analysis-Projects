@@ -30,7 +30,7 @@ Metadata
 ### Step 1. Data Cleaning - This includes, removing duplicates, finding misspellings, date column formatting, empty cells etc.
 
 
-### Step 2. Calculating Profit Margin - Is calculated using the formula profit/sales and formatted to percentage
+### Step 2. Calculating Profit Margin - Is calculated using the formula profit by sales and formatted to percentage
 
 ### Step 3. Now our data is ready to analyse. Let’s answer each business questions: 
 
