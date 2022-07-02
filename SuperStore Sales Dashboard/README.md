@@ -27,24 +27,36 @@ Metadata
 * Discount => Discount provided.
 * Profit => Profit/Loss incurred.
 
-Step 1. Data Cleaning - This includes, removing duplicates, finding misspellings, date column formatting, empty cells etc.
+### Step 1. Data Cleaning - This includes, removing duplicates, finding misspellings, date column formatting, empty cells etc.
 
 
-Step 2. Calculating Profit Margin - Is calculated using the formula profit/sales and formatted to percentage
+### Step 2. Calculating Profit Margin - Is calculated using the formula profit/sales and formatted to percentage
 
-Step 3. Now our data is ready to analyse. Let’s answer each business questions: 
+### Step 3. Now our data is ready to analyse. Let’s answer each business questions: 
 
- - Items with most orders: The data shows “Office Supplies” has most orders as per quantity. Technology has most sales and profitable to the company.
+   #### A. Items with most orders: The data shows “Office Supplies” has most orders as per quantity?
+     
+           Technology has most sales and profitable to the company.
 
- - Most sold and profitable Sub-categories:  Chairs, Storage and phones are most sold. Accessories, copiers and phones are most profitable to the company.
+   #### B. Most sold and profitable Sub-categories?
+     
+           Chairs, Storage and phones are most sold. Accessories, copiers and phones are most profitable to the company.
 
- - Mode of shipping: About 60% used standard class shipping mode.
+   #### C. Mode of shipping?
+           
+           About 60% used standard class shipping mode.
 
- - Most common segment and which one was profitable: As we can see Consumer segment is most profitable, followed by Corporate.
+   #### D. Most common segment and which one was profitable?
+   
+           As we can see Consumer segment is most profitable, followed by Corporate.
 
- - Region with most sales: 70% of profits are coming from West and East regions. So the company should work on retaining those customers. 
+   #### E. Region with most sales?
+   
+           70% of profits are coming from West and East regions. So the company should work on retaining those customers. 
 
- - Orders by cities and the profitable one: New York I the city with most sales and most profitable to the company. Also, even though Philadelphia, Houston, Chicago and Jacksonville are making good sales, they are running into losses. This is something we should investigate.
+   #### F. Orders by cities and the profitable one?
+           New York I the city with most sales and most profitable to the company. Also, even though Philadelphia, Houston, Chicago and Jacksonville are 
+           making good sales, they are running into losses. This is something we should investigate.
 
 
 
