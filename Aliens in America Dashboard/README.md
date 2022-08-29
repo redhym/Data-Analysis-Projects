@@ -4,7 +4,7 @@
 -------------------------------------------
 ## Get the data set [here](https://iklosowicz.gumroad.com/l/aliens-in-america)
 -------------------------------------------------------
-For this project, you play a role as a newly hired Data Analyst for a pharmaceutical company.
+For this project I used PowerBI to create the report. 
 
 It's the year 2022 and aliens are well known to be living amongst us.
 
