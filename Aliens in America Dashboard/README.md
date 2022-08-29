@@ -24,5 +24,5 @@ It would be helpful to know...
     Most Aggressive Aliens live in Texas: 5.46%.
     Average age of Aliens: 200
     Virginia is the most diverged state.
-    Femals are more aggressive: 45.46%
+    Females are most aggressive Aliens: 45.46%
     
