@@ -1,0 +1,19 @@
+Task 2: Customer Retention 
+
+This task is to help the management to improve customer retention.
+
+Again, I studied the data and determined the type of analysis I would carry out. Then I loaded and transformed the data in Power BI. Created measures using DAX to visualise the data.
+
+    
+Objectives:
+
+ Customers who left within the last month
+• Services each customer has signed up for: phone, multiple lines, internet, online security, online backup, device protection, tech
+support, and streaming TV and movies
+• Customer account information: how long as a customer, contract, payment method, paperless billing, monthly charges, total charges
+and number of tickets opened in the categories administrative and technical
+• Demographic info about customers – gender, age range, and if they have partners and dependents
+
+
+Here is my solution:
+
