@@ -20,4 +20,5 @@ This task is to give an overview of long-term trends in customer and agent behav
 ### Here is my solution:
 
 
-[Call Center Trends.pdf](https://github.com/redhym/Data-Analysis-Projects/files/9629762/Call.Center.Trends.pdf)
+
+![Call-Center-Trends](https://user-images.githubusercontent.com/85157023/191863553-7f115238-ca17-4671-b4dc-e3c2c7bd6478.jpg)
