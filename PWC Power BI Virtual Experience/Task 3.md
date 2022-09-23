@@ -14,4 +14,5 @@ This task is to analyse the gender balance at the executive level.
 
 ![1](https://user-images.githubusercontent.com/85157023/191865994-f8601531-e996-4116-afaf-381458b65b6c.jpg)
 ![2](https://user-images.githubusercontent.com/85157023/191866013-b3a6b97c-73e7-464a-bb2a-cb7e97a2f3de.jpg)
-![3](https://user-images.githubusercontent.com/85157023/191866025-ce9c0606-e5f0-4898-b228-ca1eb6680a00.jpg)
+
+![Diversity-and-Inclusion-Data-Analysis](https://user-images.githubusercontent.com/85157023/191879698-cafca86a-bd88-4f69-ad80-f57d45c591e2.png)
